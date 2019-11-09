@@ -1,13 +1,14 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
-app_client_control/__pycache__/
-client_control/__pycache__/
+backend/src/__pycache__/
+backend/src/app_client_control/__pycache__/
+backend/src/app_client_control/api/__pycache__/
+backend/src/client_control/__pycache__/
 
 # Django stuff:
 #settings.py
-db.sqlite3
-app_client_control/migrations
-app_client_control/serializers.py
+backend/src/db.sqlite3
+backend/src/app_client_control/migrations
+backend/src/app_client_control/serializers.py
 
 # Sphinx documentation
 #docs/_build/
@@ -19,4 +20,4 @@ app_client_control/serializers.py
 #celerybeat-schedule
 
 # mkdocs documentation
-/site
+backend/site
