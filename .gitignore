@@ -1,3 +1,7 @@
+#############################
+#   BACKEND
+#############################
+
 # Byte-compiled / optimized / DLL files
 backend/src/__pycache__/
 backend/src/app_client_control/__pycache__/
@@ -10,6 +14,9 @@ backend/src/db.sqlite3
 backend/src/app_client_control/migrations
 backend/src/app_client_control/serializers.py
 
+# settings vscode
+.vscode/
+
 # Sphinx documentation
 #docs/_build/
 
@@ -19,5 +26,31 @@ backend/src/app_client_control/serializers.py
 # celery beat schedule file
 #celerybeat-schedule
 
+#############################
+#   FRONTEND
+#############################
+
 # mkdocs documentation
 backend/site
+
+# dependencies
+frontend/client_control/node_modules
+frontend/client_control/.pnp
+frontend/client_control/.pnp.js
+
+# testing
+frontend/client_control/coverage
+
+# production
+frontend/client_control/build
+
+# misc
+frontend/client_control/.DS_Store
+frontend/client_control/.env.local
+frontend/client_control/.env.development.local
+frontend/client_control/.env.test.local
+frontend/client_control/.env.production.local
+
+frontend/client_control/npm-debug.log*
+frontend/client_control/yarn-debug.log*
+frontend/client_control/yarn-error.log*
